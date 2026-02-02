@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "student-attendance-app",
+    "slug": "student-attendance-app-godson",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.attendance.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "scheme": "student-attendance-app",
+    "extra": {
+      "eas": {
+        "projectId": "f644de79-5199-436a-8ebe-3d17007e7aab"
+      }
+    }
+  }
+}
